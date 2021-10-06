@@ -1,0 +1,445 @@
+body{
+    /* background-image: url('Images/3.png'); */
+    /* opacity: 10; */
+    margin: 0%;
+    padding: 0;
+}
+
+.navbar{
+   margin-top: 1%;
+   padding: 0;
+   height: 9vh;
+   width: 100%;
+   background-color: rgb(177, 175, 173);
+   position: fixed;
+   /* border-radius: 25px 25px 25px 25px; */
+   z-index: 1;
+
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li a {
+    color: black;
+    text-align: center;
+    padding:0;
+    text-decoration: none;
+}
+
+.navbar li {
+    padding: 1.5vw;
+    padding-left: 6vw;
+    list-style: none;
+    /* font-weight: ; */
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home{
+    background-image: url('Images/3.png');
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    /* border-radius: 0px 0px 20px 20px; */
+}
+.home h1{
+    margin-top: 20vh;
+    margin-left:-0vw;
+    margin-right: -48vw;
+    font-size: 11vw;
+    color: rgb(213, 253, 32);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-content: center;
+}
+
+.intro h1{
+    padding-top: 1vh;
+    margin-top: 40vh;
+    margin-right: 0vw;
+    margin-left: 10vw;
+    padding-left: -50vw;
+    font-size: 15vw;
+    color: rgb(213, 253, 32);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-content: center;
+}
+
+.bottom-line h6{
+    padding-top: 35vh;
+    margin-top: 40vh;
+    /* margin-right: 30vw; */
+    margin-left: -36vw;
+    padding-left: -50vw;
+    font-size: 1vw;
+    color: rgb(0, 0, 0);
+    font-family:"Lucida Handwriting";
+    justify-content: center;
+    align-content: center;
+    font-weight: 0;
+}
+
+#About{
+    display: flex;
+    margin-top: 10vh;
+    /* margin-left: 5vh; */
+    /* margin-right: 5vh; */
+    padding: 0;
+    /* padding-left: 3vw; */
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    background-image: url('Images/9.JPG');
+    /* opacity: 0.7; */
+    border-radius: 30px 30px 30px 30px;
+}
+
+.abt1p{
+  /* display: flex; */
+  /* position: relative; */
+  /* padding-top: 10vh; */
+  margin-top: 8vh;
+  position: absolute;
+  width: 53vw;
+  /* align-content: justify; */
+  /* justify-content: center; */
+  margin-left: 64vh;
+  text-align: justify;
+  text-justify: inter-word;
+  color: rgb(0, 0, 0);
+  font-weight: 1000;
+  font-family: 'French script MT';
+  font-size: 100px;
+  /* z-index: 500px; */
+}
+
+.abtimg {
+    border-radius: 30px;
+    width: 55vw;
+    height: 60vh;
+    margin-left: 4vw;
+    margin-top: 30vh;
+}
+
+.abtimg1{
+    border: 9px solid rgb(87, 86, 86);
+    border-radius: 30px;
+    padding: 10px;
+    width: 25vw;
+    height: 55vh;
+    margin-top: 30vh;
+  }
+
+  .abtp{
+    display: flex;
+    /* position: relative; */
+    /* padding-top: 10vh; */
+    margin-top: 34.4vh;
+    position: absolute;
+    width: 50vw;
+    /* align-content: justify; */
+    /* justify-content: center; */
+    margin-left: 13.5vh;
+    text-align: justify;
+    text-justify: inter-word;
+    color: rgb(245, 236, 224);
+  }
+/* 
+  #Skills{
+    display: flex;
+    margin-top: 0vh;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .skillsimg {
+    border-radius: 30px;
+    width: 15vw;
+    height: 45vh;
+    margin-left: 30vw;
+    margin-top: 55vh;
+}
+
+.skillsimg1{
+    border: 7px solid rgb(87, 86, 86);
+    border-radius: 30px;
+    padding: 10px;
+    width: 12.5vw;
+    height: 19vh;
+    margin-left: 30vw;
+    margin-top: 24vh;
+  }
+
+  .skillsimg2 {
+    border-radius: 30px;
+    width: 15vw;
+    height: 45vh;
+    /* margin-left: 20vw; */
+    /* margin-right: 30vw;
+    margin-top: 55vh;
+}
+
+.skillsimg3{
+    border: 7px solid rgb(87, 86, 86);
+    border-radius: 30px;
+    padding: 10px;
+    width: 12.5vw;
+    height: 19vh;
+    margin-right: 0vw;
+    margin-top: 24vh;
+  } */ */
+
+  #Resume{
+    display: flex;
+    margin-top: 0vh;
+    padding: 0;
+    width: 100%;
+    height: 30vh;
+    justify-content: center;
+    align-content: center;
+    background-color: darkgrey;
+  }
+
+  .resumep{
+    /* display: flex; */
+    /* position: relative; */
+    /* padding-top: 10vh; */
+    margin-top: 12.5vh;
+    position: absolute;
+    width: 53vw;
+    /* align-content: justify; */
+    /* justify-content: center; */
+    margin-left: 60vh;
+    text-align: justify;
+    text-justify: inter-word;
+    color: white;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    /* z-index: 500px; */
+  }
+
+  .resumeimg{
+    border: 4px solid rgb(87, 86, 86);
+    border-radius: 20px;
+    padding: 10px;
+    width: 80vw;
+    height: 10vh;
+    margin-top: 8vh;
+    margin-left: 17vh;
+  }
+
+  #Projects{
+    display: flex;
+    margin-top: 0vh;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .projectsp{
+    /* display: flex; */
+    /* position: relative; */
+    /* padding-top: 10vh; */
+    margin-top: 42vh;
+    position: absolute;
+    width: 53vw;
+    /* align-content: justify; */
+    /* justify-content: center; */
+    margin-left: 48vh;
+    text-align: justify;
+    text-justify: inter-word;
+    color: rgb(61, 54, 54);
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    /* z-index: 500px; */
+  }
+
+  .projects1p{
+    /* display: flex; */
+    /* position: relative; */
+    /* padding-top: 10vh; */
+    margin-top: 15vh;
+    position: absolute;
+    width: 53vw;
+    /* align-content: justify; */
+    /* justify-content: center; */
+    margin-left: 80vh;
+    text-align: justify;
+    text-justify: inter-word;
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    font-family: 'French script MT';
+    font-size: 100px;
+    /* z-index: 500px; */
+  }
+
+  .projectsimg{
+    /* border: 4px solid rgb(87, 86, 86); */
+    border-radius: 0px 200px 0px 200px;
+    padding: 35px;
+    width: 90vw;
+    height: 90vh;
+    /* margin-top: 8vh; */
+  }
+
+  #Contact{
+    display: flex;
+    margin-top: 0%;
+    padding: 0;
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+    align-content: center;
+    background-color: darkgrey;
+  }
+
+  .contactimg{
+
+    padding-top:20%;
+    margin: right 3px;
+    margin-bottom: 10vh;
+    width: 98.8vw;
+    height: 30vh;
+    /* opacity: 0.5; */
+    /* position:absolute */
+  }
+
+  .contactp{
+    /* display: flex; */
+    /* position: relative; */
+    /* padding-top: 10vh; */
+    margin-top: 75vh;
+    position: absolute;
+    width: 53vw;
+    /* align-content: justify; */
+    /* justify-content: center; */
+    margin-left: 85vh;
+    text-align: justify;
+    text-justify: inter-word;
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    /* z-index: 500px; */
+  }
+
+  .contact1p{
+    /* display: flex; */
+    /* position: relative; */
+    /* padding-top: 10vh; */
+    margin-top: 2vh;
+    position: absolute;
+    width: 60vw;
+    /* align-content: justify; */
+    /* justify-content: center; */
+    margin-left: 58vh;
+    text-align: justify;
+    text-justify: inter-word;
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90px;
+    /* z-index: 500px; */
+  }
+
+  .contact2p{
+    /* display: flex; */
+    /* position: relative; */
+    /* padding-top: 10vh; */
+    margin-top: 17vh;
+    position: absolute;
+    width: 50vw;
+    /* align-content: justify; */
+    /* justify-content: center; */
+    margin-left: 51vh;
+    text-align: justify;
+    text-justify: inter-word;
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90px;
+    /* z-index: 500px; */
+  }
+
+  .contact3p{
+    /* display: flex; */
+    /* position: relative; */
+    /* padding-top: 10vh; */
+    margin-top: 44vh;
+    position: absolute;
+    width: 8.5vw;
+    /* align-content: justify; */
+    /* justify-content: center; */
+    margin-left: 94vh;
+    /* text-align: justify; */
+    text-justify: inter-word;
+    color: white;
+    /* font-weight: bold; */
+    font-family:'Lucida Handwriting';
+    font-size: 25px;
+    /* z-index: 500px; */;
+    text-decoration: none;
+    background-color: black;
+    height: 5vh;
+    align-content: center;
+    border-radius: .8vw;
+  }
+
+  .contact4p{
+    /* display: flex; */
+    /* position: relative; */
+    /* padding-top: 10vh; */
+    margin-top: 50vh;
+    position: absolute;
+    width: 53vw;
+    /* align-content: justify; */
+    /* justify-content: center; */
+    margin-left: 80.5vh;
+    /* text-align: justify; */
+    text-justify: inter-word;
+    color: white;
+    /* font-weight: bold; */
+    font-family:'Lucida Handwriting';
+    font-size: 25px;
+    /* z-index: 500px; */
+  }
+
+  .insta{
+    position: absolute;
+    margin-left: -10vw;
+    margin-top: 60vh;
+    /* border-radius: 200vw; */
+  }
+
+  .snap{
+    position: absolute;
+    margin-left: 0vw;
+    margin-top: 60vh;
+    /* width: 20vw; */
+    /* border-radius: 20px; */
+  }
+
+  .github{
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 60vh;
+    /* border-radius: 200px; */
+  }
